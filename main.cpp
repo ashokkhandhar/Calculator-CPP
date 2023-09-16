@@ -39,7 +39,7 @@ void solve_postfix(string &str){
             s.push(stoi(operand));
         }
     }
-    cout << s.top() << endl;
+    cout << "Result: " << s.top() << endl;
 }
 
 void infix_to_postfix(string& str, string &res){
